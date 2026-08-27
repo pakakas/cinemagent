@@ -1,0 +1,14 @@
+{
+  "name": "@pakakas/cinemagent",
+  "version": "0.1.0",
+  "description": "Blender VSE Automation & Agentic Video Editing Engine",
+  "main": "exec.ts",
+  "scripts": {
+    "exec": "bun exec.ts",
+    "inspect": "bun exec.ts inspect-video",
+    "trim": "bun exec.ts trim-video",
+    "snap": "bun exec.ts snap-zero",
+    "switch-vse": "bun exec.ts switch-vse",
+    "foreground": "bun scripts/open-gui-foreground.ts"
+  }
+}
